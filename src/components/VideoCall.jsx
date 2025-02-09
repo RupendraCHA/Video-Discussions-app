@@ -76,7 +76,7 @@ const VideoCall = () => {
     <div className='flex items-center justify-end mt-6 mb-6 mr-6'>
     <button onClick={handleStopVideo} className='bg-blue-500 p-3 rounded-lg shadow-lg text-white font-bold 
     focus:outline-none focus:ring-blue-600 focus:ring-offset-2 hover:bg-blue-700 focus:ring-offset-black'>
-    Go Back</button></div>
+    Exit & Go Home</button></div>
     </>
     )
 }
