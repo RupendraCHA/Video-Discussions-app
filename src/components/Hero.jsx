@@ -31,7 +31,7 @@ const slidesArray = [
 
 const Hero = () => {
   return (
-    <div className='relative container mx-auto' style={{maxWidth: "1600px"}}>
+    <div className='relative container mx-auto'>
         <Swiper
         slidesPerView={1}
         spaceBetween={10}
@@ -44,7 +44,7 @@ const Hero = () => {
       {
         slidesArray.map((slider, index) => (
             <SwiperSlide key={index}>
-                <div className='block h-full opacity-80 w-full mx-auto md:flex pt-6 md:pt-0 md:items-center bg-cover bg-right'
+                <div className='block h-full opacity-85 w-full mx-auto md:flex pt-6 md:pt-0 md:items-center bg-cover bg-right'
                     style={{height: "50vh",backgroundImage: `url('${slider.image}')`}}
                 >
                     <div className='container mx-auto'>

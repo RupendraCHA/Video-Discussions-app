@@ -30,10 +30,10 @@ const Navbar = () => {
                 </div>
                 <div className="order-2 md:order-3 flex items-center" id="nav-content">
                     <a href="#" className="inline-block no-underline hover:text-black">
-                        <FiUser className="w-6 h-6"/>
+                        <FiUser className="w-6 h-6 hover:w-7 hover:h-7"/>
                     </a>
                     <a href="#" className="inline-block no-underline pl-3 hover:text-black">
-                        <LuShoppingCart className="w-6 h-6"/>
+                        <LuShoppingCart className="w-6 h-6 hover:w-7 hover:h-7"/>
                     </a>
                 </div>
             </div>
