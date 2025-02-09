@@ -13,19 +13,19 @@ import { Pagination } from 'swiper/modules';
 const slidesArray = [
     {
         title: "Have Video Discussions From Anywhere",
-        image: "https://media.istockphoto.com/id/1253877184/photo/african-guy-learn-online-wearing-headset-looking-at-laptop-screen.jpg?s=2048x2048&w=is&k=20&c=8uwBq8VvuXuRrhVz1PeAmkncqFmeoQ9h96O7hjypVaA="
+        image: "https://images.unsplash.com/photo-1599240213041-9969581985cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHZpZGVvJTIwbWFraW5nfGVufDB8fDB8fHww"
     },
     {
         title: "Enrich your work more satisfied",
-        image: "https://media.istockphoto.com/id/1223889856/photo/young-man-working-from-home.jpg?s=2048x2048&w=is&k=20&c=OX1VxjHQ0KEhU9fDkTP8k_fM4bbdriOTH9CEmqsp4Q8="
+        image: "https://plus.unsplash.com/premium_photo-1684433905239-efb40e911e13?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dmlkZW8lMjBtYWtpbmd8ZW58MHx8MHx8fDA%3D"
     },
     {
         title: "Best for family communications",
-        image: "https://media.istockphoto.com/id/1198252567/photo/indian-woman-teacher-wear-wireless-headset-video-calling-on-laptop.jpg?s=2048x2048&w=is&k=20&c=z5jYy6wfItdcrVexVyqvCLIpPM-xXvmPNngU797oQ3M="
+        image: "https://images.unsplash.com/photo-1593697909703-ff9b5f47c4af?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
         title: "Excellent for business meet up's",
-        image: "https://media.istockphoto.com/id/1312452682/photo/business-woman-at-office-stock-photo.jpg?s=2048x2048&w=is&k=20&c=urhUvujrfSSgxfi6uVg2GzXAaqzKhQb8OBy741SI97w="
+        image: "https://images.unsplash.com/photo-1593697909683-bccb1b9e68a4?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
 ]
 
@@ -44,7 +44,7 @@ const Hero = () => {
       {
         slidesArray.map((slider, index) => (
             <SwiperSlide key={index}>
-                <div className='block h-full opacity-85 w-full mx-auto md:flex pt-6 md:pt-0 md:items-center bg-cover bg-right'
+                <div className='block h-full w-full mx-auto md:flex pt-6 md:pt-0 md:items-center bg-cover bg-right'
                     style={{height: "50vh",backgroundImage: `url('${slider.image}')`}}
                 >
                     <div className='container mx-auto'>

@@ -2,7 +2,9 @@ import { IoMenu } from "react-icons/io5";
 import { AiOutlineShopping } from "react-icons/ai";
 import { FiUser } from "react-icons/fi";
 import { LuShoppingCart } from "react-icons/lu";
+import { useEffect } from "react";
 const Navbar = () => {
+
     return (
         <nav className="w-full z-30 top-0 py-1">
             <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 py-3">
@@ -25,7 +27,7 @@ const Navbar = () => {
                 <div className="order-1 md:order-2">
                     <a href="#" className="flex items-center tracking-wide no-underline font-bold hover:underline text-gray-800 text-xl">
                         <AiOutlineShopping className="w-6 h-6"/>
-                        RUPENDRA
+                        RUPENDRA's
                     </a>
                 </div>
                 <div className="order-2 md:order-3 flex items-center" id="nav-content">
